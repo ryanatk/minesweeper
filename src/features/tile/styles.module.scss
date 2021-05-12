@@ -1,0 +1,35 @@
+.tile {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: green;
+  align-items: center;
+  justify-content: center;
+}
+
+.alternate {
+  background-color: darkgreen;
+}
+
+.button {
+  display: flex;
+  border: none;
+  background-color: transparent;
+  width: 1.5rem;
+  height: 1.5rem;
+  align-self: stretch;
+  justify-self: stretch;
+
+  .flag & {
+    background-color: red;
+  }
+}
+
+.flipped {
+  text-align: center;
+  color: blue;
+  background-color: #ddd;
+
+  &.alternate {
+    background-color: #aaa;
+  }
+}
